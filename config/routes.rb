@@ -5,7 +5,7 @@ Rails.application.routes.draw do
 
   get "/auth" => "beeminder#go"
 
-  get "/callback" "callback#auth"
+  get "/callback" => "callback#auth"
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
